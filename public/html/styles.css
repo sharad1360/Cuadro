@@ -1,0 +1,49 @@
+/* styles.css */
+
+.container {
+    position: relative; /* Position relative for text */
+    z-index: 2; /* Bring text in front of overlay */
+}
+
+.text-white {
+    color: white; /* Ensure text is white */
+}
+
+
+.hover-zoom {
+    transition: transform 0.3s ease;
+}
+
+.hover-zoom:hover {
+    transform: scale(1.05); /* Adjust the scale value as needed */
+}
+
+
+/* -------- WHATSAPP FLOATING ICON ------------ */
+/* Floating Button Styling */
+.whatsapp-float {
+    position: fixed;
+    width: 50px; /* Adjusted width */
+    height: 50px; /* Adjusted height */
+    bottom: 20px;
+    right: 20px;
+    background-color: whitesmoke;
+    color: #FFF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    z-index: 100;
+}
+.whatsapp-float:hover {
+    transform: scale(1.1);
+}
+.whatsapp-icon img {
+    width: 100%; /* Adjust the size of the icon image */
+    height: auto;
+}
+
+/* ---------------------------------------------- */

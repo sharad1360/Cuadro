@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuadro</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/html/styles.css">
+    <link rel="icon" type="image/x-icon" href="images/indeximages/favicon.ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <img src="images/indeximages/cuadro-logo.png" alt="Cuadro Logo"
+                    style="width: 30px; height: 30px; margin-right: 5px;">
+                Cuadro
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="/">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/hoodies">Hoodies</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/oversized-tshirts">Oversized T-Shirts</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/tshirts">T-shirts</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fas fa-shopping-cart"></i> Cart <span class="badge bg-danger">0</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Carousel -->
+<section id="home" class="hero hero-bg d-flex align-items-center" data-aos="fade-up">
+    <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="2000">
+        <div class="carousel-inner">
+            <!-- Slide 1 -->
+            <div class="carousel-item active">
+                <img src="images/carousel/carousel1.png" class="d-block w-100" alt="Slide 1">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Discover Your Style</h1>
+                    <p>Premium fashion, crafted with care</p>
+                    <a href="#collections" class="btn btn-primary">Explore Collections</a>
+                </div>
+            </div>
+            <!-- Slide 2 -->
+            <div class="carousel-item">
+                <img src="images/carousel/carousel2.png" class="d-block w-100" alt="Slide 2">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Unleash Your Boldness</h1>
+                    <p>Step into the world of trendy apparel</p>
+                    <a href="#collections" class="btn btn-primary">Shop Now</a>
+                </div>
+            </div>
+            <!-- Slide 3 -->
+            <div class="carousel-item">
+                <img src="images/carousel/carousel1.png" class="d-block w-100" alt="Slide 3">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Feel the Comfort</h1>
+                    <p>Find your perfect style, effortlessly</p>
+                    <a href="#collections" class="btn btn-primary">Discover Now</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Carousel Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</section>
+
+
+
+    <!-- Collections Section -->
+    <section id="collections" class="py-5">
+        <div class="container text-center">
+            <h2 class="mb-4" data-aos="fade-up">Our Latest Collections</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card shadow hover-zoom">
+                        <img src="/images/indeximages/hoodies.jpg" class="card-img-top" alt="Hoodies Collection">
+                        <div class="card-body">
+                            <h5 class="card-title">Hoodies</h5>
+                            <p class="card-text">Cozy and stylish hoodies for every season.</p>
+                            <a href="/hoodies" class="btn btn-outline-dark">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="card shadow hover-zoom">
+                        <img src="/images/indeximages/oversized-tshirts.jpg" class="card-img-top"
+                            alt="Oversized T-Shirts Collection">
+                        <div class="card-body">
+                            <h5 class="card-title">Oversized T-Shirts</h5>
+                            <p class="card-text">Comfort meets style in our oversized tees.</p>
+                            <a href="/oversized-tshirts" class="btn btn-outline-dark">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card shadow hover-zoom">
+                        <img src="/images/indeximages/tshirts.jpg" class="card-img-top" alt="T-Shirts Collection">
+                        <div class="card-body">
+                            <h5 class="card-title">T-Shirts</h5>
+                            <p class="card-text">Classic t-shirts that go with every style.</p>
+                            <a href="/tshirts" class="btn btn-outline-dark">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Top Selling Section -->
+    <section id="collections" class="py-5">
+        <div class="container text-center">
+            <h2 class="mb-4" data-aos="fade-up">Top Selling</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card shadow hover-zoom">
+                        <img src="/images/hoodies/hoodie1.jpg" class="card-img-top" alt="Hoodie 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Midnight Retro Hoodie</h5>
+                            <p class="card-text">Black hoodie with vibrant, retro purple graphics on the back for that
+                                perfect throwback edge. Cozy, bold, and effortlessly cool.</p>
+                            <a href="#" class="btn btn-outline-dark">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card shadow hover-zoom">
+                        <img src="/images/oversizedtshirts/oversizedtshirt3.jpg" class="card-img-top" alt="Hoodie 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Oakwood Green Oversized Tee</h5>
+                            <p class="card-text">Green Oakwood Oversized Tee – Earthy oakwood green, ultra-soft, and
+                                perfectly oversized. Relaxed fit with a rich green tone for an effortlessly cool,
+                                laid-back look.</p>
+                            <a href="#" class="btn btn-outline-dark">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card shadow hover-zoom">
+                        <img src="/images/tshirts/tshirt2.jpg" class="card-img-top" alt="Hoodie 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Classic Black Tee </h5>
+                            <p class="card-text"> A no-nonsense black tee, perfect for those who like to keep things
+                                clean and classic. Soft cotton, fits like a glove.</p>
+                            <a href="#" class="btn btn-outline-dark">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Artistic Collection  -->
+    <section id="collections" class="py-5">
+        <div class="container text-center">
+            <h2 class="mb-4" data-aos="fade-up">Artistic Collection</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card shadow hover-zoom">
+                        <img src="/images/hoodies/hoodie1.jpg" class="card-img-top" alt="Hoodie 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Midnight Retro Hoodie</h5>
+                            <p class="card-text">Black hoodie with vibrant, retro purple graphics on the back for that
+                                perfect throwback edge. Cozy, bold, and effortlessly cool.</p>
+                            <a href="#" class="btn btn-outline-dark">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card shadow hover-zoom">
+                        <img src="/images/oversizedtshirts/oversizedtshirt3.jpg" class="card-img-top" alt="Hoodie 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Oakwood Green Oversized Tee</h5>
+                            <p class="card-text">Green Oakwood Oversized Tee – Earthy oakwood green, ultra-soft, and
+                                perfectly oversized. Relaxed fit with a rich green tone for an effortlessly cool,
+                                laid-back look.</p>
+                            <a href="#" class="btn btn-outline-dark">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card shadow hover-zoom">
+                        <img src="/images/tshirts/tshirt2.jpg" class="card-img-top" alt="Hoodie 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Classic Black Tee </h5>
+                            <p class="card-text"> A no-nonsense black tee, perfect for those who like to keep things
+                                clean and classic. Soft cotton, fits like a glove.</p>
+                            <a href="#" class="btn btn-outline-dark">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- About Section -->
+    <section id="about" class="py-5 bg-light">
+        <div class="container text-center">
+            <h2 class="mb-4" data-aos="fade-up">About Us</h2>
+            <p data-aos="fade-up" data-aos-delay="100">We are CUADRO, a clothing brand celebrating Himachal Pradesh's
+                rich art and culture. Our mission is simple: bridge the gap between local artists and the industry,
+                giving them the spotlight they deserve. Through quarterly art exhibitions, we showcase outstanding
+                talent on our exclusive apparel, with royalties supporting each artist’s journey. CUADRO is here to
+                weave dreams into reality, one stitch at a time.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container text-center">
+            <h2 class="mb-4" data-aos="fade-up">Contact Us</h2>
+            <p data-aos="fade-up" data-aos-delay="100">Have questions? We'd love to hear from you! Reach out to us at <a
+                    href="mailto:info@cuadro.com">info@cuadro.com</a>.</p>
+        </div>
+    </section>
+
+    <script src="js/floatingwhatsapp.js"></script>
+    <!-- Floating WhatsApp Icon -->
+    <div class="whatsapp-float" onclick="openWhatsApp()">
+        <span class="whatsapp-icon">
+            <img src="images/indeximages/whatsapp.png" alt="" srcset="">
+        </span> <!-- Emoji as Icon or use an <img> if you want -->
+    </div>
+
+
+    <footer class="bg-dark text-white text-center text-lg-start">
+        <div class="container p-4">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 mb-4">
+                    <h5 class="text-uppercase"><b>Cuadro</b> </h5>
+                    <p>CUADRO brings Himachal's art to life, showcasing local talent on exclusive apparel while
+                        supporting artists financially. We’re here to weave dreams into reality, one thread at a time.
+                    </p>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5 class="text-uppercase"><b>Quick Links </b> </h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-light">Home</a></li>
+                        <li><a href="#" class="text-light">Shop</a></li>
+                        <li><a href="#" class="text-light">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5 class="text-uppercase"> <b>Follow Us</b> </h5>
+                    <a href="#" class="text-light me-2"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="text-light me-2"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="text-light"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1200,
+            once: true
+        });
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth',
+                    offsetTop: -50
+                });
+            });
+        });
+    </script>
+
+</body>
+
+</html>

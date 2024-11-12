@@ -1,0 +1,4 @@
+i am tasked with a simple website that sells hoodie tshirts and oversizedtshirts
+i now just need to integrate payment gateway and all for a starting up fashionn
+brand best way to achieve this , o am familiar with nodejs express bootstrap . give roadmap . 
+they want it on the road woring they seeing orders and all and they getting ready to deliver.
